@@ -18,8 +18,8 @@ public class Main {
 				Employee emp =	context.getBean(Employee.class);
 		
 						emp.setEid(101);
-						emp.setEname("tom");
-						emp.setSalary(80000);
+						emp.setEname("shanti");
+						emp.setSalary(50000);
 				
 					System.out.println(emp);
 					System.out.println(emp.getAddr());
